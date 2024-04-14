@@ -1,0 +1,17 @@
+Index: src/br/Circulo/com/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/Circulo/com/Main.java b/src/br/Circulo/com/Main.java
+--- a/src/br/Circulo/com/Main.java	
++++ b/src/br/Circulo/com/Main.java	(date 1713123470827)
+@@ -9,7 +9,7 @@
+         // Solicitar ao usuário que forneça o raio e a cor do círculo
+         System.out.print("Digite o raio do círculo: ");
+         double raio = scanner.nextDouble();
+-        scanner.nextLine(); 
++        scanner.nextLine();
+         System.out.print("Digite a cor do círculo: ");
+         String cor = scanner.nextLine();
+ 
